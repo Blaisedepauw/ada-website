@@ -4,7 +4,8 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./.html).
+[Link to another page](../ada-website.html).
+retour à l'envoyeur
 
 There should be whitespace between paragraphs.
 
