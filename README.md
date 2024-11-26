@@ -3,7 +3,7 @@
 ## BLALALLALALALLALA
 
 ## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
+1. Fork (copy) this repository by clicking the "Fork" button on the top right cornerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.
 2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
 4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
