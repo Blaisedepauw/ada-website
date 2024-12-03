@@ -7,3 +7,9 @@ navigation:
     url: /
   - title: Example
     url: example
+  - title: Economy
+    url: economy
+  - title: Culture
+    url: culture
+  - title: Population
+    url: population
