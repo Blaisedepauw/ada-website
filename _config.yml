@@ -1,10 +1,14 @@
 theme: jekyll-theme-minimal
 title: How the film industry reflects globalization
 description: We are going to tell the story of a history teacher passionate about cinema, giving his class about globalization.
+
+
 show_downloads: True
 navigation:
   - title: Globalization and Film industry data story
     url: /
+  - title: Datastory in one page
+    url: datastory
   - title: Economy
     url: economy
   - title: Culture

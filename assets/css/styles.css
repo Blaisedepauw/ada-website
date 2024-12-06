@@ -103,11 +103,20 @@ img {
   max-width:100%;
 }
 
+/* modifier la barre de recherche */
+
 header {
   width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.sidebar-image {
+  width: 100px; /* Set a specific width */
+  /*height: auto;  Adjust height to maintain aspect ratio */
+  display: block;
+  margin: 10px auto; /* Center the image horizontally */
 }
 
 header ul {
@@ -267,4 +276,49 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+
+
+.page-index {
+  width: 200px;
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  background: #ffffff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-index ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-index li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #666;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.page-index li:hover {
+  color: #0066cc;
+}
+
+.page-index .active {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.page-index .active::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 20px;
+  background-color: #0066cc;
+  position: absolute;
+  left: -20px;
 }

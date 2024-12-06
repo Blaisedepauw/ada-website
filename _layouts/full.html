@@ -4,30 +4,43 @@ layout: full
 <!doctype html>
 <html>
   <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" type="image/png"  href="assets/img/world-cinema.png">
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/datastory.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}"> -->
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
-    <div class="wrapper">
-
-      {{ content }}
-
+    <div class="fullscreen-image" id="fullscreenImage">
+      <img src="assets/img/world-cinema.png" alt="Fullscreen Image" class="image">
+    </div>
+    <div class="outer-wrapper">
+      <div class="inner-wrapper">
+        <div class="content">
+          {{ content }}
+        </div>
+        <div id="page-index" class="page-index">
+          <!-- Index will be populated here -->
+        </div>
+      </div>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/header.js' | relative_url }}"></script>
 
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
+    {% if site.google_analytics %}
+      <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', '{{ site.google_analytics }}', 'auto');
+          ga('send', 'pageview');
+      </script>
+    {% endif %}
   </body>
 </html>
