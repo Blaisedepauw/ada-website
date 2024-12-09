@@ -16,7 +16,6 @@ Go back to "Settings" -> "Pages" to find your website link sur le github
 # My Interactive Graph
 
 Here's an interactive Plotly graph:
+<!-- <div id="myPlot" style="width:100%;height:500px;"></div> -->
+<!-- <script src="{{ '/assets/js/myPlot.js'| relative_url }}"></script> -->
 
-<div id="myPlot" style="width:100%;height:500px;"></div>
-
-<script src="{{ '/assets/js/myPlot.js'| relative_url }}"></script>
