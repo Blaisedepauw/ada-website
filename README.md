@@ -19,4 +19,4 @@ Here's an interactive Plotly graph:
 
 <div id="myPlot" style="width:100%;height:500px;"></div>
 
-<script src="{{ '/assets/js/myPlot.js'}}"></script>
+<script src="{{ '/assets/js/myPlot.js'| relative_url }}"></script>
