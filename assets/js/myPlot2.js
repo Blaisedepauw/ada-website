@@ -8,4 +8,4 @@ var layout = {
     title: 'My SECOND Plotly Graph'
 };
 
-Plotly.newPlot('myPlot', data, layout, {responsive: true});
+Plotly.newPlot('myPlot2', data, layout, {responsive: true});
