@@ -64,7 +64,7 @@ Here's an interactive Plotly graph:
 
 <div id="myPlot2" style="width:100%;height:500px;"></div>
 
-<script src="{{ '/assets/js/myPlot.js'| relative_url }}"></script>
+<script src="{{ '/assets/js/myPlot2.js'| relative_url }}"></script>
 
 a
 
@@ -90,7 +90,7 @@ a
 
 # Culture {#part-2}
 
-Content here...
+Content here....
 a
 a
 a
