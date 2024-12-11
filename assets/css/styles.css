@@ -284,7 +284,8 @@ footer {
   width: 200px;
   position: fixed;
   right: 20px;
-  top: 100px;
+  top: 50%;
+  transform: translateY(-50%);
   background: #ffffff;
   padding: 20px;
   font-family: Arial, sans-serif;
