@@ -120,7 +120,7 @@ Of course, I’m sure you’re curious to know which countries have the films mo
 Let’s group them by geographic region and observe the positioning of each region in this boxplot:
 
 <div style="width: 100%;display: flex; justify-content: center;">
-  {% include US_Influence_Region.html %}
+  {% include US_influence_region.html %}
 </div>
 
 >At first glance, the regions of the world with the highest scores indeed seem to be the most integrated into globalization. However, be careful not to group everyone together!
