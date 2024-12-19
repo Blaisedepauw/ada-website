@@ -361,13 +361,13 @@ By using the silhouette score, we identify 3 main clusters:
   {% include Kmeans.html %}
 </div>
 
->**Cluster 1: The Discreet Independents**\\
+>**Cluster 0: The Discreet Independents**\\
 >These countries produce few films and show low American influence in their productions. They are the "cinema craftsmen" who often prefer local stories, narratives rooted in their culture, or low-budget projects. They stand out for their creative independence and a lack of Hollywood themes or styles. In these countries, cinema is sometimes more of a means of cultural expression than a mass industry.
 >
->**Cluster 2: The Balanced Explorers**\\
+>**Cluster 1: The Balanced Explorers**\\
 >Countries in this cluster produce a moderate number of films and show a more noticeable American influence, but not a dominant one. They fall into an intermediate zone where their cinema blends local and global elements. One could say these countries explore "cultural bridges": their productions strike a balance between telling local stories and borrowing codes or inspiration from the American film industry. This leads to a diversity of creative approaches, often appreciated on the international stage.
 >
->**Cluster 3: The Budding Hollywoods**\\
+>**Cluster 2: The Budding Hollywoods**\\
 >Here, we find the major film producers heavily marked by American influence. These countries are followers of the "blockbuster" style with themes, techniques, and sometimes even actors or directors directly inspired by Hollywood. These film industries aim to compete with the United States on the global stage by combining commercial ambition with wide accessibility for an international audience.
 >
 >
@@ -386,6 +386,11 @@ By using the silhouette score, we identify 3 main clusters:
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include Index_Map.html %}
 </div>
+
+>Our clustering doesn’t provide as smooth a gradient as the map from the KOF, but we do observe many similarities between the two maps. Therefore, we've managed to obtain a map quite similar to the one produced by official globalization indices, thanks to the measure of the cultural influence of the United States!
+>
+>You were right in your intuition... While this isn’t enough to precisely determine a country’s integration into globalization, the cultural influence of the United States in a country’s film productions gives us a good indication of its integration into globalization.
+
 
 **Jason the Troublemaker:**
 >Sir, you said that globalization includes cultural exchanges, but I don’t understand. Culture isn’t exchanged like money! It doesn’t make sense…
@@ -412,8 +417,8 @@ By using the silhouette score, we identify 3 main clusters:
   {% include Distribution_character.html %}
 </div>
 
->Very well, let’s continue! We have identified 970 characters appearing in multiple films. On average, these characters participate in productions from 1.8 different countries, with a maximum of 8 countries for some.\\
->However, for this analysis, we are only interested in the 428 characters that appear in productions from different countries. For each country that has produced a film featuring a given character, we assign 1 character influence point to the character’s country of origin. This gives us a total of 774 points to distribute.
+>Very well, let’s continue! We have identified 960 characters appearing in multiple films. On average, these characters participate in productions from 1.8 different countries, with a maximum of 8 countries for some.\\
+>However, for this analysis, we are only interested in the 427 characters that appear in productions from different countries. For each country that has produced a film featuring a given character, we assign 1 character influence point to the character’s country of origin. This gives us a total of 771 points to distribute.
 >
 >Let’s get to the heart of the matter: how do we assign an origin country to a character? A simple, yet naive, approach would be to say that a character’s country of origin is the one from the first film they appear in. Let’s see what this gives us for the most popular character: Cardinal Richelieu.
 >
@@ -443,11 +448,11 @@ Now, let’s determine where the most influential characters come from! The hori
 **Professor:** 
 >But I know you, you're curious! You want to know which movie characters are the most influential? Here's a top 4 of characters who appear in productions from more than 6 different countries.
 
-(Podium image)
+<img src="assets/img/podium.jpg" alt="Fullscreen Image" style="max-width: 40%; display: block; margin: 0 auto; height: auto;">
 
 >As you can see, we've found the real Cardinal Richelieu, thanks to NLP!
 >
->Professor: Ah, Count Dracula, one of the most iconic characters in literature and cinema. He has been attributed to Romania, his country of origin, and for good reason: the vampire myth finds its roots in the legends of Transylvania, a historical region of Romania.
+>Ah, Count Dracula, one of the most iconic characters in literature and cinema. He has been attributed to Romania, his country of origin, and for good reason: the vampire myth finds its roots in the legends of Transylvania, a historical region of Romania.
 >
 >Mina Harker, although she appears in Dracula, is undeniably British. She was born and raised in England, embodies Victorian values, and her actions in the story, as well as her role as Jonathan Harker’s wife, fit into a distinctly British cultural framework.
 >
