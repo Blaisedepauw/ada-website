@@ -16,6 +16,8 @@ layout: full
 
 # I/ Economy {#part-1}
 
+## Free exchanges of goods and services
+
 **Professor:**
 >In this course, we will first address the economic aspect of globalization. Let's begin with a definition to set the context, and then I will show you how the film industry serves as a witness to economic globalization. Do you have any questions before we start?
 
@@ -533,7 +535,8 @@ Now, let’s determine where the most influential characters come from! The hori
 >
 >Then we have the population aspect, actors from everywhere playing everywhere, proving that the real stars of globalization aren’t just the James Bonds and Jackie Chans, but the unsung extras who make the magic happen. Sure, some regions are still playing catch-up in the globalization game, but hey, every great movie needs its underdog.
 >
->In the end, cinema teaches us a valuable lesson about globalization: it’s messy, uneven, and sometimes overly reliant on sequels, but it’s also vibrant, collaborative, and undeniably human. So, as we roll the credits on this datastory, let’s remember that whether it’s a Bollywood dance sequence or a Hollywood explosion, globalization is a production we’re all part of. Lights, camera, action… the show goes on!
+>In the end, cinema teaches us a valuable lesson about globalization: it’s messy, uneven, and sometimes overly reliant on sequels, but it’s also vibrant, collaborative, and undeniably human. So, as we roll the credits on this datastory, let’s remember that whether it’s a Bollywood dance sequence or a Hollywood explosion, globalization is a production we’re all part of. \\
+Lights, camera, action… the show goes on!
 
 P.S. Ever wondered why our teacher is so proficient with data analysis tools? It seems there's more to his story than we knew. During his sabbatical year at Microsoft Research, he missed working with data stories so much that he decided to switch careers and become a history teacher. And don't forget, our school is right here in Seattle... Click on his picture to uncover the full story!
 
