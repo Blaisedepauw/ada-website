@@ -36,7 +36,6 @@ Economic globalization can be defined as the global acceleration of the exchange
   {% include Rev_vs_Adj_Rev_Worldwide.html %}
 </div>
 
-**Professor:**
 >On the graph, the blue curve represents the box office revenue of the film industry in billions of dollars. The orange curve, on the other hand, shows the box office revenue adjusted for inflation, using 1963 as the reference year. The orange curve gives you an idea of the “real” market growth by taking into account the effects of inflation. As you suspected,  Ada, we can observe a growth in the film market starting in the 1980s, which accelerated significantly after 1995, coinciding with the WTO agreements.
  
 **Jason the Troublemaker:**
@@ -136,7 +135,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 >As we can imagine, over time, film genres have traveled across the globe, and countries have influenced one another. That’s why today, everyone rushes to see the latest Avengers movie, and nobody cares about specialized cinema anymore.
 
 **Professor:**
->Well, you’re not entirely wrong, but you’re not completely correct either. To understand the evolution of film genres, I propose we first analyze the most popular genres throughout history. To do this, I’ll use my film database and count the number of films produced by genre. Of course, some films belong to multiple genres, so we’ll count each film once per genre. Look at the following histogram—what do you notice?
+>Well, you’re not entirely wrong, but you’re not completely correct either. To understand the evolution of film genres, I propose we first analyze the most popular genres throughout history. To do this, I’ll use my film database and count the number of films produced by genre. Of course, some films belong to multiple genres, so we’ll count each film once per genre. Look at the following histogram, what do you notice?
 
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include most_common_genres.html %}
@@ -189,7 +188,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 **Professor:**
 >Excellent observation! What you’re describing aligns perfectly with the concept of cultural globalization. Indeed, the spread of film genres, such as drama, comedy, or thriller, follows a wave-like dynamic. This process often begins in the United States, which has had a highly influential film industry thanks to Hollywood since the early 20th century, particularly from the 1920s-1930s with the rise of talkies.
 >
->Next, European countries adopt these genres, especially after World War II during the 1950s-1960s, when Europe began developing its own productions, while still influenced by the United States. Later, Asian countries join this trend—for instance, with the rise of Indian cinema (Bollywood) in the 1970s, as well as the global success of Japanese and Korean cinema in the 1990s-2000s.
+>Next, European countries adopt these genres, especially after World War II during the 1950s-1960s, when Europe began developing its own productions, while still influenced by the United States. Later, Asian countries join this trend, for instance, with the rise of Indian cinema (Bollywood) in the 1970s, as well as the global success of Japanese and Korean cinema in the 1990s-2000s.
 >
 >Finally, South American and African countries also embrace these genres, particularly from the 2000s onward, as local film industries grow, often supported by new technologies and the globalization of media. This process exemplifies the global circulation of cultural models, where genres or styles spread from one region to another, often Adapting to local cultural specificities along the way.
 >
@@ -203,7 +202,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 >Oh, pizza!
 
 **Professor:**
->Yes, that’s exactly right, Jason the Troublemaker! But more seriously, these charts show us that, while some genres like Drama dominate globally across all regions, there are still marked cultural specificities. In East Asia, for instance, we see a strong presence of films centered around Japanese or Chinese themes—genres that reflect specific cultural traditions—just as Bollywood represents South Asia.
+>Yes, that’s exactly right, Jason! But more seriously, these charts show us that, while some genres like Drama dominate globally across all regions, there are still marked cultural specificities. In East Asia, for instance, we see a strong presence of films centered around Japanese or Chinese themes, genres that reflect specific cultural traditions, just as Bollywood represents South Asia.
 >
 >Meanwhile, Africa and the Middle East stand out with a notable share of documentaries and global cinema, even though these genres remain secondary. In North America, comedies play a major role, while in Oceania and Europe, there is significant diversity, with a strong proportion of global cinema alongside comedies.
 >
@@ -255,7 +254,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 **Professor:** 
 >That's true! With this map, we can understand two main things. First, most countries in the world predominantly produce dramatic films, including the United States, Canada, and China, where drama ranks in the top 3. This reflects a certain cultural unification, a consequence of globalization, where global trends seem to have standardized cinematic preferences. Second, some countries, like China or a few African nations, stand out by producing predominantly other genres, showing that local specificities persist and resist global influences.
 >
->Finally, it’s important to note that, despite these similarities in major productions, films produced in smaller quantities—often independent or regional—continue to reflect unique cultural identities. These works explore local themes and less conventional genres, contributing to the preservation of cultural diversity and offering a valuable counterpoint to global uniformity. Any questions? … No questions? Great, I’ll continue!
+>Finally, it’s important to note that, despite these similarities in major productions, films produced in smaller quantities, often independent or regional, continue to reflect unique cultural identities. These works explore local themes and less conventional genres, contributing to the preservation of cultural diversity and offering a valuable counterpoint to global uniformity. Any questions? … No questions? Great, I’ll continue!
 >
 >Now, I’d like to move on to a section of the course where we explore whether certain topics addressed in films are common across various parts of the world. For this, I’ve done some Topic Modeling. I had access to a large number of film summaries, and I used the BERTopic library to extract recurring themes from these summaries, allowing me to assign a topic to each summary with a certain probability. This enables us to categorize films with a new feature!
 
@@ -379,7 +378,7 @@ By using the silhouette score, we identify 3 main clusters:
   {% include Cluster_Wregion.html %}
 </div>
 
->Well, all these observations are very interesting, but now it's time to answer our dear Intello. Here, I’ve compared the clusters we've identified with an official globalization indicator. For this, we will use the Made in Switzerland indicator from ETH Zurich, the KOF.
+>Well, all these observations are very interesting, but now it's time to answer our dear Ada. Here, I’ve compared the clusters we've identified with an official globalization indicator. For this, we will use the Made in Switzerland indicator from ETH Zurich, the KOF.
 
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include Map_cluster.html %}
@@ -480,7 +479,7 @@ Now, let’s determine where the most influential characters come from! The hori
 >This graph conveys two pieces of information. First, if we look at the original version, we can see that the overall number of actors has increased over time, which aligns with the increase observed in the number of movies. Second, when we look at the normalized version, we notice that some countries represent an increasingly important proportion of actors, such as India, China, and South Korea. Meanwhile, others have seen their proportion decrease, like the United States and Canada.
 
 **Ada:** 
->Excuse me, sir, but there’s something I don’t quite understand! It seems that this histogram, on its own, is more of an indicator of the development of countries than of their globalization. It shows that the main players in the movie industry have shifted—from Northern countries to Southern countries—but it doesn’t provide direct information about globalization.
+>Excuse me, sir, but there’s something I don’t quite understand! It seems that this histogram, on its own, is more of an indicator of the development of countries than of their globalization. It shows that the main players in the movie industry have shifted, from Northern countries to Southern countries, but it doesn’t provide direct information about globalization.
 
 **Professor:** 
 >You are absolutely correct! To visualize globalization, we must show that these increasing numbers of ethnicities do not exist in isolation but rather participate together in common movies. To demonstrate this, let’s examine the evolution of diversity in films. Jason, can you describe the following graph?
@@ -493,7 +492,7 @@ Now, let’s determine where the most influential characters come from! The hori
 >We can see a blue curve that rises, with light blue lines around it. The lines also get bigger over time. But what do they represent?
 
 **Professor:** 
->Good observation, Jason! The blue curve represents the average number of ethnicities per movie, and you can see how it evolves over time—it increases. The light blue lines indicate the standard deviations. Overall, the mean number of ethnicities per movie has increased! The increasing size of the standard deviation means that some movies are becoming very diverse in terms of actor origin, while others remain much less diversified.
+>Good observation, Jason! The blue curve represents the average number of ethnicities per movie, and you can see how it evolves over time, it increases. The light blue lines indicate the standard deviations. Overall, the mean number of ethnicities per movie has increased! The increasing size of the standard deviation means that some movies are becoming very diverse in terms of actor origin, while others remain much less diversified.
 
 **Ada:** 
 >So, if we link both graphs, we can observe that actors come from increasingly diverse origins and that these diverse origins are increasingly mixed within movies. This demonstrates that globalization also affects populations. Did I get that right?
@@ -502,7 +501,7 @@ Now, let’s determine where the most influential characters come from! The hori
 >Yes, that’s exactly what I wanted you to understand. Well done! Now let’s examine another fascinating aspect: international careers. Can you name an actor you like?
 
 **Jason the Troublemaker:** 
->Jackie Chan!*
+>Jackie Chan!
 
 **Professor:** 
 >Excellent example. Jackie Chan originates from Hong Kong but has acted in movies produced by the United States, France, China, India, and other countries. This is an example of an international career made possible by globalization! Now, take a look at this map. When two countries are connected by a line, it means that an actor has worked in both countries. The width of the line represents the number of actors. This map is cumulative, meaning it shows the accumulation of countries involved in international careers over time.
@@ -511,8 +510,7 @@ Now, let’s determine where the most influential characters come from! The hori
   {% include international_careers.html %}
 </div>
 
-**Professor:** 
->If you look at the map in 1910, only a few countries are connected. This indicates that actors with international careers originated from and moved to a very limited number of countries. Most of them stayed within countries that share the same language, such as the USA, Great Britain, and Australia, or Argentina and Spain. Others moved to colonies of their home country, such as Great Britain and India. At this time, most involved countries were from the Global North—rich, developed nations (and their colonies).
+>If you look at the map in 1910, only a few countries are connected. This indicates that actors with international careers originated from and moved to a very limited number of countries. Most of them stayed within countries that share the same language, such as the USA, Great Britain, and Australia, or Argentina and Spain. Others moved to colonies of their home country, such as Great Britain and India. At this time, most involved countries were from the Global North, rich, developed nations (and their colonies).
 >
 >As time passes, you’ll notice that the number of countries involved in international careers increases, reflecting a growing inclusion of populations in the globalization process. Additionally, the diversity of links between countries expands: the possibilities for international careers become much broader! By 2013, almost all countries were involved in the process, except for many African countries, some Middle Eastern countries, and parts of Central Asia.
 >
@@ -529,13 +527,13 @@ Now, let’s determine where the most influential characters come from! The hori
 # Conclusion {#conclusion}
 
 **Professor:**
->And there you have it, folks! Globalization, as seen through the glamorous (and sometimes overly dramatic) lens of the film industry, is like a blockbuster movie itself—full of unexpected plot twists, star-studded collaborations, and the occasional villain (hello, cultural homogenization).
+>And there you have it, folks! Globalization, as seen through the glamorous (and sometimes overly dramatic) lens of the film industry, is like a blockbuster movie itself, full of unexpected plot twists, star-studded collaborations, and the occasional villain (hello, cultural homogenization).
 >
 >Economically, the story unfolds with big-budget co-productions and box office revenues skyrocketing across continents. It's as if Hollywood said, "Let’s make the world our stage," and the rest of the planet cautiously joined the cast. Meanwhile, culturally, genres and characters are traveling faster than Marvel's multiverse, creating a delightful mix of cross-border creativity and the occasional "why did they remake that?" moment.
 >
->Then we have the population aspect—actors from everywhere playing everywhere, proving that the real stars of globalization aren’t just the James Bonds and Jackie Chans, but the unsung extras who make the magic happen. Sure, some regions are still playing catch-up in the globalization game, but hey, every great movie needs its underdog.
+>Then we have the population aspect, actors from everywhere playing everywhere, proving that the real stars of globalization aren’t just the James Bonds and Jackie Chans, but the unsung extras who make the magic happen. Sure, some regions are still playing catch-up in the globalization game, but hey, every great movie needs its underdog.
 >
->In the end, cinema teaches us a valuable lesson about globalization: it’s messy, uneven, and sometimes overly reliant on sequels—but it’s also vibrant, collaborative, and undeniably human. So, as we roll the credits on this datastory, let’s remember that whether it’s a Bollywood dance sequence or a Hollywood explosion, globalization is a production we’re all part of. Lights, camera, action… the show goes on!
+>In the end, cinema teaches us a valuable lesson about globalization: it’s messy, uneven, and sometimes overly reliant on sequels, but it’s also vibrant, collaborative, and undeniably human. So, as we roll the credits on this datastory, let’s remember that whether it’s a Bollywood dance sequence or a Hollywood explosion, globalization is a production we’re all part of. Lights, camera, action… the show goes on!
 
 P.S. Ever wondered why our teacher is so proficient with data analysis tools? It seems there's more to his story than we knew. During his sabbatical year at Microsoft Research, he missed working with data stories so much that he decided to switch careers and become a history teacher. And don't forget, our school is right here in Seattle... Click on his picture to uncover the full story!
 
@@ -568,4 +566,4 @@ P.S. Ever wondered why our teacher is so proficient with data analysis tools? It
 
 </div>
 
-By Pauline Richard, Arnaud Teinturier, Aurélien Rivière, Oscar Prangé and Blaise Depauw
+Thank you for reading us, by Pauline Richard, Arnaud Teinturier, Aurélien Rivière, Oscar Prangé and Blaise Depauw
