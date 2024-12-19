@@ -16,7 +16,7 @@ layout: full
 
 # I/ Economy {#part-1}
 
-## Free exchanges of goods and services
+### I.1 Free exchanges of goods and services
 
 **Professor:**
 >In this course, we will first address the economic aspect of globalization. Let's begin with a definition to set the context, and then I will show you how the film industry serves as a witness to economic globalization. Do you have any questions before we start?
