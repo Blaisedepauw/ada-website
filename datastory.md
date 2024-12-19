@@ -3,51 +3,15 @@ layout: full
 ---
 # Introduction {#intro}
 
-This is a test for an one page datastory
-
-[Retour au menu](./)
-
-Hello, everyone! Welcome to my class on globalization, my name is Professor Knowbalization and I'll be your teacher today. I know that globalization can sometimes seem like a vast and complex topic, filled with economic jargon and cultural theory. However, today, I'm excited to introduce you to a way of understanding globalization that is as engaging as it is enlightening: through the lens of cinema.
-
-As someone who has always been passionate about films, I'm conviced that movies not only entertain us but also reflect the economic, cultural, and social shifts that define globalization. By analyzing films, we can gain insights into how interconnected our world has become and how cultures intermingle and influence one another.
-
-Throughout this course, we'll engage in a dynamic dialogue (I really encourage your participation !), where we'll dissect movies to uncover the deeper narratives of globalization. 
-
-We'll start by examining the economic side of globalization in the film industry. This includes looking at co-productions and box office trends that mirror global trade and economic alliances. Then, we'll venture into the cultural realm, exploring how film genres and iconic characters cross borders and contribute to cultural exchanges. Finally, we'll consider the diversity of actors, highlighting how global mobility and migration influence the stories we see on screen.
-
-My hope is that by the end of this course, you'll see globalization not just as an abstract concept, but as a living, breathing process that cinema both reflects and shapes. So, let's dive into this cinematic journey and discover the profound connections between film and globalization. I'm excited to see where this exploration takes us and to hear your thoughts and insights along the way. Let's get started!
-
-Here's a petit plot:
-
-a
-
-diversity_score_evolution_by_region
-
-
-a
-a
-a
-
-a
-
-
-a
-
-a
-
-a
-
-a
-
-a
-
-
-a
-a
-aa
-a
-
-a
+**Professor:**
+>Hello, everyone! Welcome to Seattle for my class on globalization, my name is Professor Knowbalization and I'll be your teacher today. I know that globalization can sometimes seem like a vast and complex topic, filled with economic jargon and cultural theory. However, today, I'm excited to introduce you to a way of understanding globalization that is as engaging as it is enlightening: through the lens of cinema.
+>
+>Throughout this course, we'll engage in a dynamic dialogue (I really encourage your participation !), where we'll dissect movies to uncover the deeper narratives of globalization:\\
+>At its essence, globalization is about increasing interconnectedness across the globe. Economically, it involves the free flow of money, goods, and services between nations. Culturally, it reflects the exchange of ideas, traditions, and creativity across borders. And for populations, globalization is about mobility, as people migrate and interact on a global scale, shaping diverse and dynamic societies.
+>
+>As someone who has always been passionate about films, I'm conviced that movies not only entertain us but also reflect the economic, cultural, and social shifts that define globalization. By analyzing films, we can gain insights into how interconnected our world has become and how cultures intermingle and influence one another.
+>
+>My hope is that by the end of this course, you'll see globalization not just as an abstract concept, but as a living, breathing process that cinema both reflects and shapes. So, let's dive into this cinematic journey and discover the profound connections between film and globalization. I'm excited to see where this exploration takes us and to hear your thoughts and insights along the way. Let's get started!
 
 
 # I/ Economy {#part-1}
@@ -55,7 +19,7 @@ a
 **Professor:**
 >In this course, we will first address the economic aspect of globalization. Let's begin with a definition to set the context, and then I will show you how the film industry serves as a witness to economic globalization. Do you have any questions before we start?
 
-**Jason:**
+**Jason the Troublemaker:**
 >Sir, are you going to talk about Marvel movies? I am a big fan of the Avengers!
 
 **Professor:**
@@ -73,7 +37,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 **Professor:**
 >On the graph, the blue curve represents the box office revenue of the film industry in billions of dollars. The orange curve, on the other hand, shows the box office revenue adjusted for inflation, using 1963 as the reference year. The orange curve gives you an idea of the “real” market growth by taking into account the effects of inflation. As you suspected,  Ada, we can observe a growth in the film market starting in the 1980s, which accelerated significantly after 1995, coinciding with the WTO agreements.
  
-**Jason:**
+**Jason the Troublemaker:**
 >Given all the money the film industry generates, it must be seriously globalized!
 
 **Professor:**
@@ -93,7 +57,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 **Professor:**
 >Thank you for this insightful analysis. Regarding the decline in revenue after 2010, don’t worry, it’s simply due to the fact that I couldn’t gather enough films for my analyses from that point onward. Now, as for the gap between the United States and Europe, it’s fascinating because it aligns with the idea that the United States experienced an early global economic boom. Then, WTO agreements facilitated the free exchange of goods and services worldwide, economically benefiting Europe, which experienced a later growth phase. Finally, our example also illustrates that the integration of different regions into globalization is an unequal process that happens at varying speeds.
 
-**Jason:**
+**Jason the Troublemaker:**
 >So we can say that only the United States and Europe are globalized, right?
 
 **Professor:**
@@ -117,7 +81,7 @@ Economic globalization can be defined as the global acceleration of the exchange
   {% include Rev_vs_Co-prod.html %}
 </div>
 
-**Jason:**
+**Jason the Troublemaker:**
 >This whole co-production thing still isn’t very clear to me. Are you sure it’s relevant?
 
 **Professor:**
@@ -341,7 +305,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 >Exactly! By looking at these maps, we observe the emergence of three main poles: North America, Europe, and Southeast Asia. This clearly illustrates how globalization fosters cultural exchanges between these regions. On the other hand, some other regions seem less integrated into these global flows, producing fewer films or remaining more focused on their own local contexts. This shows that globalization, while a global phenomenon, does not affect all regions equally, thus creating disparities in access to cultural exchanges. Any questions?
 
 
-**Intellectual Student:**
+**Ada:**
 >Sir, everyone knows that the United States are the leaders of globalization. So, if we want to know if a country is well integrated into globalization, we just need to look at its links with the United States, right?
 
 
@@ -360,7 +324,7 @@ Using the HuggingFace Transformers library, we will classify the film summaries 
 Once we have an influence score for each film, we can average these scores for each country. This gives us a measure of the American cultural influence across the entire film production of a country.
 
 
-**Intellectual Student:**
+**Ada:**
 >So, if I understand correctly, the higher the average score, the more culturally influenced a country is by the United States in its films?
 
 
@@ -429,14 +393,14 @@ By using the silhouette score, we identify 3 main clusters:
 **Professor:**
 >That’s a great point, Jason. It’s true that cultural exchange is less obvious to grasp than economic exchange. But you know me, I’m going to give you a concrete example. Tell me, Jason, what’s your favorite movie character?
 
-**Jason:**
+**Jason the Troublemaker:**
 >James Bond, sir. He’s so cool!
 
 **Professor:** 
 >I agree, Jason, James Bond has an unmatched style. But you know, he’s also a great example of cultural exchange. Through the 007 films, the British convey elements of their culture: their dry humor, their love of tea, their elegance, and even a unique vision of spies. And what’s fascinating is that these elements become more familiar and acceptable to us because they are carried by a character we admire.\\
 >In other words, through characters like James Bond, British cultural aspects travel and integrate into our collective representations. It’s as if, without realizing it, we “adopt” a part of that culture. That’s why movie characters are such a great starting point to study cultural exchanges between countries. What do you think, Jason?
 
-**Jason:** 
+**Jason the Troublemaker:** 
 >I see what you mean now, sir. I’m listening.
 
 **Professor:** 
@@ -520,7 +484,7 @@ Population globalization involves the movement and interaction of people across 
   {% include average_ethnicity_per_movie.html %}
 </div>
 
-**Jason:** 
+**Jason the Troublemaker:** 
 >We can see a blue curve that rises, with light blue lines around it. The lines also get bigger over time. But what do they represent?
 
 **Professor:** 
@@ -559,44 +523,42 @@ Population globalization involves the movement and interaction of people across 
 
 # Conclusion {#conclusion}
 
-aa
-a
+**Professor:**
+>And there you have it, folks! Globalization, as seen through the glamorous (and sometimes overly dramatic) lens of the film industry, is like a blockbuster movie itself—full of unexpected plot twists, star-studded collaborations, and the occasional villain (hello, cultural homogenization).
+>
+>Economically, the story unfolds with big-budget co-productions and box office revenues skyrocketing across continents. It's as if Hollywood said, "Let’s make the world our stage," and the rest of the planet cautiously joined the cast. Meanwhile, culturally, genres and characters are traveling faster than Marvel's multiverse, creating a delightful mix of cross-border creativity and the occasional "why did they remake that?" moment.
+>
+>Then we have the population aspect—actors from everywhere playing everywhere, proving that the real stars of globalization aren’t just the James Bonds and Jackie Chans, but the unsung extras who make the magic happen. Sure, some regions are still playing catch-up in the globalization game, but hey, every great movie needs its underdog.
+>
+>In the end, cinema teaches us a valuable lesson about globalization: it’s messy, uneven, and sometimes overly reliant on sequels—but it’s also vibrant, collaborative, and undeniably human. So, as we roll the credits on this datastory, let’s remember that whether it’s a Bollywood dance sequence or a Hollywood explosion, globalization is a production we’re all part of. Lights, camera, action… the show goes on!
 
+P.S. Ever wondered why our teacher is so proficient with data analysis tools? It seems there's more to his story than we knew. During his sabbatical year at Microsoft Research, he missed working with data stories so much that he decided to switch careers and become a history teacher. And don't forget, our school is right here in Seattle... Click on his picture to uncover the full story!
 
-a
-a
+<div>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+          #toggleImage {
+              cursor: pointer;
+              width: 300px; /* Set your desired width */
+              height: auto; /* Maintain aspect ratio */
+              display: block;
+              margin: 0 auto;
+              justify-content: center;
+          }
+      </style>
+      <script>
+          function toggleImage() {
+              const image = document.getElementById('toggleImage');
+              image.src = image.src.includes('assets/img/prof.png') ? 'assets/img/bob.png' : 'assets/img/prof.png';
+          }
+      </script>
+  </head>
+  <body>
 
-a
+  <img id="toggleImage" src="assets/img/prof.png" alt="Toggle Image" style="justify-content: center;" onclick="toggleImage()">
 
+  </body>
 
-
-
-
-
-a
-
-
-a
-a
-
-
-a
-
-a
-
-a
-
-
-
-a
-
-
-a
-
-
-a
-a
-a
-
-a
-
+</div>
