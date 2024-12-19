@@ -72,6 +72,8 @@ Economic globalization can be defined as the global acceleration of the exchange
   {% include Rev_Market-share.html %}
 </div>
 
+### I.2 Co-productions evolution
+
 **Ada:**
 >Sir, you defined globalization as an economic exchange between countries. However, a gradual increase in the integration of countries into the global film market doesn’t necessarily imply interaction between them.
 
@@ -120,6 +122,8 @@ Economic globalization can be defined as the global acceleration of the exchange
 
 
 # II/ Culture {#part-2}
+
+### II.1 Genre analysis
 
 **Jason the Troublemaker:** 
 >Sir, you've been talking to us about cinema, numbers, economics, and exchanges all this time. But what’s your favorite type of movie?
@@ -177,6 +181,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include genre_apparition_count_by_country.html %}
 </div>
+
 
 >Out of the 362 genres in the database, approximately 70% originated in the USA, 10% in the UK, 9% in France, and 7% in Germany. These countries belong to highly globalized economic regions, making it interesting to examine more closely how film production by genre has been distributed over time across different parts of the world. Can someone tell me what they observe in the next graph regarding the top genres mentioned earlier?
 
@@ -258,6 +263,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 >
 >Finally, it’s important to note that, despite these similarities in major productions, films produced in smaller quantities, often independent or regional, continue to reflect unique cultural identities. These works explore local themes and less conventional genres, contributing to the preservation of cultural diversity and offering a valuable counterpoint to global uniformity. Any questions? … No questions? Great, I’ll continue!
 >
+### II.2 Topic modeling
 >Now, I’d like to move on to a section of the course where we explore whether certain topics addressed in films are common across various parts of the world. For this, I’ve done some Topic Modeling. I had access to a large number of film summaries, and I used the BERTopic library to extract recurring themes from these summaries, allowing me to assign a topic to each summary with a certain probability. This enables us to categorize films with a new feature!
 
 **Ada:** 
@@ -307,6 +313,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 **Professor:** 
 >Exactly! By looking at these maps, we observe the emergence of three main poles: North America, Europe, and Southeast Asia. This clearly illustrates how globalization fosters cultural exchanges between these regions. On the other hand, some other regions seem less integrated into these global flows, producing fewer films or remaining more focused on their own local contexts. This shows that globalization, while a global phenomenon, does not affect all regions equally, thus creating disparities in access to cultural exchanges. Any questions?
 
+### II.3 US cultural influence
 
 **Ada:**
 >Sir, everyone knows that the United States are the leaders of globalization. So, if we want to know if a country is well integrated into globalization, we just need to look at its links with the United States, right?
@@ -394,6 +401,7 @@ By using the silhouette score, we identify 3 main clusters:
 >
 >You were right in your intuition... While this isn’t enough to precisely determine a country’s integration into globalization, the cultural influence of the United States in a country’s film productions gives us a good indication of its integration into globalization.
 
+### II.4 Character study for cultural influence analysis
 
 **Jason the Troublemaker:**
 >Sir, you said that globalization includes cultural exchanges, but I don’t understand. Culture isn’t exchanged like money! It doesn’t make sense…
@@ -464,6 +472,8 @@ Now, let’s determine where the most influential characters come from! The hori
 
 # III/ Population {#part-3}
 
+### III.1 Increase in the diversity of origins
+
 **Professor:** 
 >In this last part of the class, we will discuss how globalization impacts populations.
 
@@ -498,6 +508,8 @@ Now, let’s determine where the most influential characters come from! The hori
 
 **Ada:** 
 >So, if we link both graphs, we can observe that actors come from increasingly diverse origins and that these diverse origins are increasingly mixed within movies. This demonstrates that globalization also affects populations. Did I get that right?
+
+### III.2 International careers
 
 **Professor:** 
 >Yes, that’s exactly what I wanted you to understand. Well done! Now let’s examine another fascinating aspect: international careers. Can you name an actor you like?
