@@ -310,7 +310,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 
 
 **Professor:**
->An excellent point, Intellectual! And you know what? Cinema is actually a great way to explore this idea. Perhaps you’re not entirely wrong… Let’s look into it together.
+>An excellent point, Ada! And you know what? Cinema is actually a great way to explore this idea. Perhaps you’re not entirely wrong… Let’s look into it together.
 So, how can we quantify the links, or rather the cultural influence of the United States on other countries in the film industry? For this analysis, we will rely on film summaries, as they often reflect key themes, characters, and locations.
 
 
@@ -329,7 +329,7 @@ Once we have an influence score for each film, we can average these scores for e
 
 
 **Professor:**
->Exactly, Intellectual! Now, let’s see what this reveals. Let’s explore whether this influence has any connection with a country’s cinematic productivity.
+>Exactly, Ada! Now, let’s see what this reveals. Let’s explore whether this influence has any connection with a country’s cinematic productivity.
 
 
 <div style="width: 100%;display: flex; justify-content: center;">
@@ -474,7 +474,7 @@ Population globalization involves the movement and interaction of people across 
 **Professor:** 
 >This graph conveys two pieces of information. First, if we look at the original version, we can see that the overall number of actors has increased over time, which aligns with the increase observed in the number of movies. Second, when we look at the normalized version, we notice that some countries represent an increasingly important proportion of actors, such as India, China, and South Korea. Meanwhile, others have seen their proportion decrease, like the United States and Canada.
 
-**Intellectual:** 
+**Ada:** 
 >Excuse me, sir, but there’s something I don’t quite understand! It seems that this histogram, on its own, is more of an indicator of the development of countries than of their globalization. It shows that the main players in the movie industry have shifted—from Northern countries to Southern countries—but it doesn’t provide direct information about globalization.
 
 **Professor:** 
@@ -490,7 +490,7 @@ Population globalization involves the movement and interaction of people across 
 **Professor:** 
 >Good observation, Jason! The blue curve represents the average number of ethnicities per movie, and you can see how it evolves over time—it increases. The light blue lines indicate the standard deviations. Overall, the mean number of ethnicities per movie has increased! The increasing size of the standard deviation means that some movies are becoming very diverse in terms of actor origin, while others remain much less diversified.
 
-**Intellectual:** 
+**Ada:** 
 >So, if we link both graphs, we can observe that actors come from increasingly diverse origins and that these diverse origins are increasingly mixed within movies. This demonstrates that globalization also affects populations. Did I get that right?
 
 **Professor:** 

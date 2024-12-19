@@ -5,15 +5,5 @@ description: We are going to tell the story of a history teacher passionate abou
 
 show_downloads: True
 navigation:
-  - title: Globalization and Film industry data story
-    url: /
   - title: Datastory in one page
     url: datastory
-  - title: Economy
-    url: economy
-  - title: Culture
-    url: culture
-  - title: Population
-    url: population
-  - title: Example
-    url: example
