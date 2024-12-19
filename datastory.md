@@ -263,7 +263,9 @@ Economic globalization can be defined as the global acceleration of the exchange
 >
 >Finally, it’s important to note that, despite these similarities in major productions, films produced in smaller quantities, often independent or regional, continue to reflect unique cultural identities. These works explore local themes and less conventional genres, contributing to the preservation of cultural diversity and offering a valuable counterpoint to global uniformity. Any questions? … No questions? Great, I’ll continue!
 >
+
 ### II.2 Topic modeling
+
 >Now, I’d like to move on to a section of the course where we explore whether certain topics addressed in films are common across various parts of the world. For this, I’ve done some Topic Modeling. I had access to a large number of film summaries, and I used the BERTopic library to extract recurring themes from these summaries, allowing me to assign a topic to each summary with a certain probability. This enables us to categorize films with a new feature!
 
 **Ada:** 
