@@ -225,7 +225,7 @@ Economic globalization can be defined as the global acceleration of the exchange
 >
 >Next, European countries adopt these genres, especially after World War II during the 1950s-1960s, when Europe began developing its own productions, while still influenced by the United States. Later, Asian countries join this trend—for instance, with the rise of Indian cinema (Bollywood) in the 1970s, as well as the global success of Japanese and Korean cinema in the 1990s-2000s.
 >
->Finally, South American and African countries also embrace these genres, particularly from the 2000s onward, as local film industries grow, often supported by new technologies and the globalization of media. This process exemplifies the global circulation of cultural models, where genres or styles spread from one region to another, often **Ada**pting to local cultural specificities along the way.
+>Finally, South American and African countries also embrace these genres, particularly from the 2000s onward, as local film industries grow, often supported by new technologies and the globalization of media. This process exemplifies the global circulation of cultural models, where genres or styles spread from one region to another, often Adapting to local cultural specificities along the way.
 >
 >Thus, this "wave phenomenon" you’ve noticed in the graphs is a clear manifestation of cultural globalization, where local productions emerge in response to global influences. To confirm this, I’ve prepared pie charts showing the top 5 genres by region of the world.
 
