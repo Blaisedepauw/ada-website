@@ -105,21 +105,47 @@ Economic globalization can be defined as the global acceleration of the exchange
   {% include Rev_Market-share.html %}
 </div>
 
- **Ada:**
+**Ada:**
 >Sir, you defined globalization as an economic exchange between countries. However, a gradual increase in the integration of countries into the global film market doesn’t necessarily imply interaction between them.
- **Professor:**
+
+**Professor:**
 >Once again, thank you, Ada, for this very astute observation. The nuance you raise is crucial because, indeed, all countries could have developed independently within closed economies. This is why we will now focus on co-productions, which are clear evidence of economic exchange between countries.
-In the following graph, you can observe, for different countries, the inflation-adjusted box office revenue over the years alongside the number of co-productions per year for those same countries.
-
-
+>
+>In the following graph, you can observe, for different countries, the inflation-adjusted box office revenue over the years alongside the number of co-productions per year for those same countries.
 
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include Rev_vs_Co-prod.html %}
 </div>
 
+**Jason:**
+>This whole co-production thing still isn’t very clear to me. Are you sure it’s relevant?
+
+**Professor:**
+>Thank you for your critical thinking, Jason ! I am not sure if it’s because you’re feeling rebellious today or because, for once, you’re particularly engaged now that we’re talking about Marvel movies. Either way, I am glad to see you participating so much!
+>
+>Indeed, from the last graph, it’s hard to draw any quick conclusions since an increase in the number of co-productions isn’t always correlated with an increase or decrease in box office revenue. That’s why we will now examine the evolution of co-productions on a global scale to determine whether our hypothesis of expanding yet self-contained economies holds up. So, what are your thoughts on this?
+
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include Co-prod_countries.html %}
 </div>
+
+**Ada:**
+>From the graph, we can observe a significant evolution in the number of co-productions between countries over the last century. In the early 1940s, we saw the first trend emerge between the United States and Europe. From the 1950s onward, this trend strengthened between Western blocs and expanded to include a generalization of co-productions on a global scale. By 2012, it’s evident that many countries are integrated into the film economy, making it globalized in line with the definition you provided at the beginning of the course.
+
+**Professor:**
+>Once again, thank you for your insightful analysis. I am accustomed to seeing you engaged in class, but today you’ve exceeded my expectations. In the end, this cinema example seems to captivate all of you, which is fantastic news!
+>
+>As you explained, this graph clearly demonstrates that the film economy is globalized, as it integrates numerous countries into this industry. Notably, we observe major hubs such as North America, Europe, Australia, and parts of Asia (China, India, Japan) that are particularly well-integrated.
+>
+>Initially, we discussed how globalization occurs at varying speeds, and this map also highlights its unequal nature, as some countries remain excluded from the global economic framework.
+>
+>To conclude this segment and provide you with a more detailed understanding of the economic globalization process, I’d like you to analyze this final map. It overlays countries' revenues with their integration into the global economy through their number of co-productions.
+>
+>For better readability, I’ve chosen to represent the evolution in ten-year intervals, starting from 1920 through 2010. This will allow you to identify the decades during which economic globalization in the film industry intensified.
+>
+>You will notice that in the early years, the United States, with Hollywood, served as the cradle of the film industry. By the 1950s, Europe gradually integrated, followed by Asia, with India and the rise of Bollywood playing a significant role. From then on, global relations between these three continents intensified, contributing to the industry's growth.
+>
+>Later, starting in the 1970s, Australia joined this economy, followed by Africa and South America in the 1980s. Additionally, the 2000s show a peak in activity for the globalized film industry.
 
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include Co-prod_Revenue_map.html %}
