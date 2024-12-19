@@ -448,7 +448,7 @@ Now, let’s determine where the most influential characters come from! The hori
 **Professor:** 
 >But I know you, you're curious! You want to know which movie characters are the most influential? Here's a top 4 of characters who appear in productions from more than 6 different countries.
 
-<img src="assets/img/podium.jpg" alt="Podium image" style="max-width: 40%; display: block; margin: 0 auto; height: auto;">
+<img src="assets/img/podium.png" alt="Podium image" style="max-width: 40%; display: block; margin: 0 auto; height: auto;">
 
 >As you can see, we've found the real Cardinal Richelieu, thanks to NLP!
 >
